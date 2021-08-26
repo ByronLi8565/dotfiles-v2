@@ -7,6 +7,11 @@ ctrl - 5 : source ~/bin/swspace 5
 ctrl - 6 : source ~/bin/swspace 6
 ctrl - 7 : source ~/bin/swspace 7
 ctrl - w : $(yabai -m window $(yabai -m query --windows --window | jq -re ".id") --close)
+ctrl + shift - l : yabai -m window --space next; yabai -m space --focus next ;
+ctrl + shift - h : yabai -m window --space prev; yabai -m space --focus prev ; skhd -k "escape"
+ctrl - j : yabai -m window --focus next;
+ctrl - k : yabai -m window --focus prev; 
+ctrl - e : emacs
 # ################################################################ #
 # THE FOLLOWING IS AN EXPLANATION OF THE GRAMMAR THAT SKHD PARSES. #
 # FOR SIMPLE EXAMPLE MAPPINGS LOOK FURTHER DOWN THIS FILE..        #
