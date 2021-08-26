@@ -1,0 +1,16 @@
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager-core
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[user]
+	name = Byron Li
+	email = byronli8565@gmail.com
+[alias]
+	cm = commit -a -m
+	pull = pull origin
+	push = push origin
+	undo = reset --soft HEAD~1
+	ls = log -n 16 --pretty=format:"%C(yellow)%h\\ %C(cyan)[%cn]\\ %C(reset)%s\\ %C(red)%d" --decorate 
+	ll = log -n 6 --pretty=format:"%C(yellow)%h\\ %C(cyan)[%cn]\\ %C(reset)%s\\ %C(red)%ad" --decorate --date=short --stat
+	ss = status -s -b
