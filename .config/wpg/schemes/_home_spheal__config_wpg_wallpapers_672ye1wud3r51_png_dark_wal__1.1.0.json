@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/spheal/.config/wpg/wallpapers/672ye1wud3r51.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#221c1f",
+        "foreground": "#f3aead",
+        "cursor": "#f3aead"
+    },
+    "colors": {
+        "color0": "#221c1f",
+        "color1": "#BF6060",
+        "color2": "#D44F55",
+        "color3": "#F65C5A",
+        "color4": "#F8615F",
+        "color5": "#D65761",
+        "color6": "#DD5F66",
+        "color7": "#f3aead",
+        "color8": "#aa7979",
+        "color9": "#BF6060",
+        "color10": "#D44F55",
+        "color11": "#F65C5A",
+        "color12": "#F8615F",
+        "color13": "#D65761",
+        "color14": "#DD5F66",
+        "color15": "#f3aead"
+    }
+}

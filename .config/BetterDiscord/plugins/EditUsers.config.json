@@ -1,0 +1,174 @@
+{
+	"places": {
+		"contextMenu": true,
+		"chatTextarea": true,
+		"chatWindow": true,
+		"reactions": true,
+		"mentions": true,
+		"memberList": true,
+		"voiceChat": true,
+		"recentDms": true,
+		"dmsList": true,
+		"dmHeader": true,
+		"dmCalls": true,
+		"typing": true,
+		"friendList": true,
+		"inviteList": true,
+		"activity": true,
+		"userPopout": true,
+		"userProfile": true,
+		"mutualFriends": true,
+		"autocompletes": true,
+		"guildSettings": true,
+		"quickSwitcher": true,
+		"searchPopout": true,
+		"userAccount": true,
+		"appTitle": true
+	},
+	"types": {
+		"servers": true,
+		"dms": true
+	},
+	"users": {
+		"527638079486558258": {
+			"color1": [
+				207,
+				135,
+				97
+			],
+			"name": "TKD"
+		},
+		"696828185123356823": {
+			"color1": [
+				241,
+				196,
+				15,
+				1
+			],
+			"name": "aadit"
+		},
+		"450097707034476544": {
+			"color1": [
+				206,
+				107,
+				255,
+				1
+			],
+			"name": "jerro"
+		},
+		"252199587404709898": {
+			"color1": [
+				255,
+				127,
+				38,
+				1
+			],
+			"name": "",
+			"useRoleColor": false
+		},
+		"342006129993318400": {
+			"color1": [
+				255,
+				231,
+				153,
+				1
+			]
+		},
+		"351885110552952834": {
+			"color1": [
+				241,
+				196,
+				15
+			]
+		},
+		"448314612543127584": {
+			"color1": [
+				241,
+				196,
+				15
+			],
+			"name": "painapple"
+		},
+		"324239438958034966": {
+			"name": "leen leen"
+		},
+		"619657805166805024": {
+			"color1": [
+				241,
+				196,
+				15
+			],
+			"name": "Brizn",
+			"removeIcon": false,
+			"url": ""
+		},
+		"353115258413383691": {
+			"color1": [
+				255,
+				243,
+				20
+			]
+		},
+		"364563157621932053": {
+			"color1": [
+				255,
+				255,
+				255
+			]
+		},
+		"589151456045694977": {
+			"color1": [
+				184,
+				76,
+				9
+			]
+		},
+		"389251991810867201": {
+			"color1": [
+				90,
+				207,
+				66
+			],
+			"name": "pokes"
+		},
+		"428563260170567700": {
+			"color1": [
+				161,
+				81,
+				240
+			],
+			"name": "username"
+		},
+		"471106132727824394": {
+			"color1": [
+				179,
+				129,
+				68
+			],
+			"name": "buko"
+		},
+		"794993831401488454": {
+			"color1": [
+				222,
+				156,
+				71
+			]
+		},
+		"694398683424227328": {
+			"color1": [
+				255,
+				42,
+				31
+			]
+		},
+		"280206031496151040": {
+			"color1": [
+				231,
+				76,
+				60,
+				1
+			],
+			"name": "mrjeff22"
+		}
+	}
+}

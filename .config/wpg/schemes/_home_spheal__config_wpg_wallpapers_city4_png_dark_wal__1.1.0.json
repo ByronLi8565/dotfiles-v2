@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/spheal/.config/wpg/wallpapers/city4.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#224f24",
+        "foreground": "#c6a2c5",
+        "cursor": "#c6a2c5"
+    },
+    "colors": {
+        "color0": "#224f24",
+        "color1": "#899C7A",
+        "color2": "#7C3081",
+        "color3": "#9E968C",
+        "color4": "#CF41A3",
+        "color5": "#6E387B",
+        "color6": "#6F4F8B",
+        "color7": "#c6a2c5",
+        "color8": "#8a7189",
+        "color9": "#899C7A",
+        "color10": "#7C3081",
+        "color11": "#9E968C",
+        "color12": "#CF41A3",
+        "color13": "#6E387B",
+        "color14": "#6F4F8B",
+        "color15": "#c6a2c5"
+    }
+}
