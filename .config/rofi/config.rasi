@@ -1,9 +1,0 @@
-/** Basic config file **/
-
-configuration {
-  show-icons:         true;
-  icon-theme:         "Papirus";
-  display-drun:                                       "";
-  drun-display-format:            "{name}";
-
-}
