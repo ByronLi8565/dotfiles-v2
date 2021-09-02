@@ -1,3 +1,6 @@
-2021/08/20-22:29:04.422 e3cf Reusing MANIFEST /home/spheal/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2021/08/20-22:29:04.423 e3cf Recovering log #7
-2021/08/20-22:29:04.423 e3cf Reusing old log /home/spheal/.config/discord/Local Storage/leveldb/000007.log 
+2021/08/31-23:14:30.953 1ab71 Reusing MANIFEST /home/spheal/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2021/08/31-23:14:30.953 1ab71 Recovering log #40
+2021/08/31-23:14:30.954 1ab71 Reusing old log /home/spheal/.config/discord/Local Storage/leveldb/000040.log 
+2021/08/31-23:22:54.673 1ae83 Level-0 table #44: started
+2021/08/31-23:22:54.674 1ae83 Level-0 table #44: 14158 bytes OK
+2021/08/31-23:22:54.675 1ae83 Delete type=0 #40

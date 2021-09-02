@@ -8,12 +8,16 @@ super + Return
 
 # program launcher
 super + p
-	~/.config/rofi/launchers/colorful/launcher.sh
+	~/.config/rofi/launch.sh
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 super + shift + {g,h}
 	pamixer --{decrease,increase} 5
+super + shift + s
+	maim -s | xclip -selection clipboard -t image/png
+
+
 # bspwm hotkeys
 #
 
@@ -28,8 +32,7 @@ super + {_,shift + }q
 # alternate between the tiled and monocle layout
 super + @space 
 	bspc desktop -l next
-
-
+	
 #
 # state/flags
 #

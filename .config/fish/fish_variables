@@ -3,6 +3,9 @@
 SETUVAR --export KITTY_CONFIG_DIRECTORY:/Users/spheal/\x2econfig/kitty
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_bser:brew\x20services
+SETUVAR _fish_abbr_e:emacsclient
+SETUVAR _fish_abbr_pacman:sudo\x20pacman
+SETUVAR _fish_abbr_rm:trash\x2dput
 SETUVAR _fish_abbr_spc:spacebar\x20\x2dm\x20config\x20
 SETUVAR _fish_abbr_v:nvim
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
@@ -32,4 +35,4 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/Users/spheal/\x2eemacs\x2ed/bin\x1e/Users/spheal/bin
+SETUVAR fish_user_paths:/home/spheal/\x2eemacs\x2ed/bin\x1e/home/spheal/\x2elocal/bin\x1e/Users/spheal/\x2eemacs\x2ed/bin\x1e/Users/spheal/bin

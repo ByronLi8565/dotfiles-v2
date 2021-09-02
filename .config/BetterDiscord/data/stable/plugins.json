@@ -1,8 +1,10 @@
 {
     "BDFDB": false,
-    "ZeresPluginLibrary": false,
+    "ZeresPluginLibrary": true,
     "XenoLib": false,
     "BetterRoleColors": false,
     "EditChannels": true,
-    "EditUsers": true
+    "EditUsers": false,
+    "HideServersChannelsRedux": true,
+    "CompleteTimestamps": true
 }

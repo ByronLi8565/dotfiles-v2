@@ -54,8 +54,8 @@ entry {
 }
 
 inputbar {
-	children: 						[ prompt, entry ];
-    background-color:               @ac;
+    children: 						[ prompt, entry ];
+    background-color:               #4c80bc;
     text-color:                     @bg;
     expand:                         false;
 	border:							0% 0% 0% 0%;
@@ -66,7 +66,7 @@ inputbar {
 }
 
 listview {
-    background-color:               @al;
+    background-color:               #000000;
     padding:                        0px;
     columns:                        1;
     lines:                          5;
@@ -87,7 +87,7 @@ mainbox {
 }
 
 element {
-    background-color:               @al;
+    background-color:               #000000;
     text-color:                     @fg;
     orientation:                    horizontal;
     border-radius:                  0%;
