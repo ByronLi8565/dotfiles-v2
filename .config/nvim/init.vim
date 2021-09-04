@@ -5,9 +5,16 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 " Run PlugInstall if there are missing plugins
-autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+augroup AutoCmd
+    autocmd!
+    autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \| PlugInstall --sync | source $MYVIMRC
 \| endif
+    autocmd! BufWritePost $MYVIMRC source % | echom "Reloaded " . $MYVIMRC 
+augroup END 
+au FocusLost * :wa
+
+
 call plug#begin('~/.config/nvim/plugged')
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
@@ -23,11 +30,7 @@ call plug#end()
 let g:sneak#label = 1
 
 "Automate Changes
-autocmd! BufWritePost $MYVIMRC source % | echom "Reloaded " . $MYVIMRC 
-    
-au FocusLost * :wa
 "Settings
-set nocompatible
 let mapleader=" "
 set relativenumber
 set tabstop=4
