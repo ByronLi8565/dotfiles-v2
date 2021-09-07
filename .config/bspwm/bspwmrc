@@ -19,3 +19,5 @@ feh --bg-fill /home/spheal/pic/wall/redsun.png &
 picom --config ~/.config/picom/picom.conf &
 
 bspc rule -a Emacs state=tiled manage=on layer=normal sticky=off follow=off
+
+bspc rule -a Zathura state=tiled manage=on layer=normal sticky=off follow=off

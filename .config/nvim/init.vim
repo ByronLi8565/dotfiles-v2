@@ -26,7 +26,7 @@ Plug 'sudormrfbin/cheatsheet.nvim'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-
+Plug 'junegunn/goyo.vim'
 
 call plug#end()
 " Plugin Config
@@ -60,6 +60,7 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+nnoremap <leader>g :Goyo<CR>
 nnoremap j gj
 nnoremap k gk
 nnoremap ; :

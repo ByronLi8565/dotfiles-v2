@@ -2,6 +2,8 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_e:emacsclient
+SETUVAR _fish_abbr_pacman:sudo\x20pacman
+SETUVAR _fish_abbr_r:zathura
 SETUVAR _fish_abbr_rm:trash\x2dput
 SETUVAR _fish_abbr_v:nvim
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
