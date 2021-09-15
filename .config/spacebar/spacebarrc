@@ -2,13 +2,15 @@
 
 spacebar -m config position            top
 spacebar -m config icon_font "FiraCode Nerd Font:Light:14.0"
-spacebar -m config clock_format         "%m/%d %R  "
+spacebar -m config clock_format         "%R"
 spacebar -m config space_icon_strip R O Y G B I V
-spacebar -m config background_color 0x70000000
-spacebar -m config power_icon_strip  
+spacebar -m config power_icon_strip   
 spacebar -m config battery_icon_color 0x90ffffff
 spacebar -m config power_icon_color 0xff00ff00
 spacebar -m config foreground_color 0x90ffffff
 spacebar -m config space_icon_color 0xffffffff
 spacebar -m config clock_icon_color 0x90ffffff
 spacebar -m config height 20
+spacebar -m config padding_left         600
+spacebar -m config background_color     0x10000000
+spacebar -m config title                       off

@@ -1,6 +1,3 @@
-
-[credential "https://dev.azure.com"]
-	useHttpPath = true
 [user]
 	name = Byron Li
 	email = byronli8565@gmail.com
@@ -13,6 +10,9 @@
 	ll = log -n 6 --pretty=format:"%C(yellow)%h\\ %C(cyan)[%cn]\\ %C(reset)%s\\ %C(red)%ad" --decorate --date=short --stat
 	ss = status -s -b
 [credential]
-	helper = 
 	helper = /usr/bin/git-credential-manager-core
 	credentialStore = gpg
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager-core
+[credential "https://dev.azure.com"]
+	useHttpPath = true
