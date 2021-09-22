@@ -10,7 +10,7 @@ augroup AutoCmd
     autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \| PlugInstall --sync | source $MYVIMRC
 \| endif
-    autocmd! BufWritePost $MYVIMRC source % | echom "Reloaded " . $MYVIMRC 
+    autocmd! BufWritePost $MYVIMRC source % | echom "Reloaded " . $MYVIMRC
 augroup END 
 au FocusLost * :wa
 
@@ -27,7 +27,7 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'junegunn/goyo.vim'
-
+Plug 'junegunn/vim-peekaboo'
 call plug#end()
 " Plugin Config
 let g:sneak#label = 1
@@ -50,6 +50,7 @@ set gdefault
 set incsearch
 set showmatch
 set hlsearch
+set clipboard=unnamedplus
 "Remaps
 nnoremap <leader>, :noh<cr>
 nnoremap <up> <nop>

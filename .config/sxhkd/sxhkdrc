@@ -16,8 +16,8 @@ super + shift + {g,h}
 	pamixer --{decrease,increase} 5
 super + shift + s
 	maim -s | xclip -selection clipboard -t image/png
-
-
+super + y
+    fish -c todo
 # bspwm hotkeys
 #
 
@@ -32,8 +32,11 @@ super + {_,shift + }q
 # alternate between the tiled and monocle layout
 super + @space 
 	bspc desktop -l next
-	
-#
+# adjust gaps
+super + {_,shift + }b
+    { bspc config -d focused window_gap $(( $(bspc config -d focused window_gap) + 4 )), \
+    [ $(bspc config -d focused window_gap) -ge 4 ] && \
+    bspc config -d focused window_gap $(( $(bspc config -d focused window_gap) - 4 )) }
 # state/flags
 #
 
