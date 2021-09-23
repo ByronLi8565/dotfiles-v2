@@ -20,18 +20,19 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'justinmk/vim-sneak'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'sudormrfbin/cheatsheet.nvim'
+Plug 'pradyungn/Mountain', {'rtp': 'vim'}
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/vim-peekaboo'
+Plug 'ryanoasis/vim-devicons'
+
 call plug#end()
 " Plugin Config
 let g:sneak#label = 1
-
+let g:enable_mountain_statusline = 1
 "Automate Changes
 "Settings
 let mapleader=" "

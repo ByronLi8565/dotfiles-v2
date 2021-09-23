@@ -34,9 +34,11 @@ super + @space
 	bspc desktop -l next
 # adjust gaps
 super + {_,shift + }b
-    { bspc config -d focused window_gap $(( $(bspc config -d focused window_gap) + 4 )), \
-    [ $(bspc config -d focused window_gap) -ge 4 ] && \
-    bspc config -d focused window_gap $(( $(bspc config -d focused window_gap) - 4 )) }
+    { bspc config window_gap $(( $(bspc config window_gap) + 4 )), \
+    [ $(bspc config window_gap) -ge 4 ] && \
+    bspc config window_gap $(( $(bspc config window_gap) - 4 )) }
+super + shift + o
+    ~/.config/polybar/launch.sh
 # state/flags
 #
 
