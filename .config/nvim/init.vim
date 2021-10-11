@@ -52,6 +52,11 @@ set incsearch
 set showmatch
 set hlsearch
 set clipboard=unnamedplus
+" set spell
+set spelllang=en_gb
+hi clear SpellBad
+hi SpellBad cterm=underline
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 "Remaps
 nnoremap <leader>, :noh<cr>
 nnoremap <up> <nop>
@@ -67,5 +72,3 @@ nnoremap j gj
 nnoremap k gk
 nnoremap ; :
 inoremap jj <ESC>   
-nnoremap <leader>w <C-w>v<C-w>l
-nnoremap <C-n> :NvimTreeToggle<CR> 

@@ -1,6 +1,8 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_adc:adb\x20disconnect
+SETUVAR _fish_abbr_adh:adb\x20connect\x20192\x2e168\x2e43\x2e1
 SETUVAR _fish_abbr_e:emacsclient
 SETUVAR _fish_abbr_pacman:sudo\x20pacman
 SETUVAR _fish_abbr_r:zathura
