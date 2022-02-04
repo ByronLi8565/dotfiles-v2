@@ -8,7 +8,10 @@ super + Return
 
 # program launcher
 super + p
-	~/.config/rofi/launch.sh
+    rofi -show drun	
+# alt tab
+alt + Tab
+    ~/bin/alttab
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -16,11 +19,9 @@ super + shift + {g,h}
 	pamixer --{decrease,increase} 5
 super + shift + s
 	maim -s | xclip -selection clipboard -t image/png
-super + y
-    fish -c todo
-# bspwm hotkeys
-#
 
+super + shift + c
+	maim -st 0 | convert - -resize 1x1\! -format '%[pixel:p{0,0}]' info:- | xclip -sel clip
 # quit/restart bspwm
 super + alt + {q,r}
 	bspc {quit,wm -r}
@@ -38,8 +39,10 @@ super + {_,shift + }b
     [ $(bspc config window_gap) -ge 4 ] && \
     bspc config window_gap $(( $(bspc config window_gap) - 4 )) }
 super + o
-    polybar-msg cmd toggle 
+	xdo show -a tint2 && bspc config left_padding 42
 super + shift + o
+	xdo hide -a tint2 && bspc config left_padding 0
+super + alt + o
     ~/.config/polybar/launch.sh
 # state/flags
 #
@@ -48,13 +51,6 @@ super + shift + o
 super + {t,shift + t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
-# set the node flags
-#super + ctrl + {m,x,y,z}
-#	bspc node -g {marked,locked,sticky,private}
-
-#
-# focus/swap
-#
 
 # focus the node in the given direction
 #super + {_,shift + }{h,j,k,l}
@@ -75,30 +71,10 @@ super + shift + {j,k}
 super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
-# focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last
-
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
-#
-# preselect
-#
-
-# preselect the direction
-super + ctrl + {h,j,k,l}
-	bspc node -p {west,south,north,east}
-
-
-# cancel the preselection for the focused node
-super + ctrl + space
-	bspc node -p cancel
-
-# cancel the preselection for the focused desktop
-super + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
 #
 # move/resize

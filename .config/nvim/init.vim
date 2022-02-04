@@ -28,10 +28,12 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/vim-peekaboo'
 Plug 'ryanoasis/vim-devicons'
-
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+Plug 'kovetskiy/sxhkd-vim'
 call plug#end()
 " Plugin Config
 let g:sneak#label = 1
+
 let g:enable_mountain_statusline = 1
 "Automate Changes
 "Settings
@@ -68,7 +70,9 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 nnoremap <leader>g :Goyo<CR>
+nnoremap r .
 nnoremap j gj
 nnoremap k gk
 nnoremap ; :
 inoremap jj <ESC>   
+nnoremap X ZZ
