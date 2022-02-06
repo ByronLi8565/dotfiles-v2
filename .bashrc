@@ -9,7 +9,6 @@ export PATH="$PATH:$HOME/.spicetify"
 [[ $- != *i* ]] && return
 PS1='[\u@\h \W]\$ '
 xset r rate 300 50
-. /usr/share/LS_COLORS/dircolors.sh
 exec fish
 
 

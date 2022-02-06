@@ -1,0 +1,20 @@
+{
+	"dates": {
+		"timestampDate": {
+			"formatString": "$time",
+			"timeString": "$h:$m"
+		},
+		"tooltipDate": {
+			"formatString": "$time"
+		}
+	},
+	"general": {
+		"showInChat": true,
+		"showInEmbed": true,
+		"showInMarkup": true,
+		"showInAuditLogs": true,
+		"changeForChat": true,
+		"changeForEdit": true,
+		"changeForMarkup": true
+	}
+}
