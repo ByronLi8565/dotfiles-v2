@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export EDITOR:nvim
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_adc:adb\x20disconnect
 SETUVAR _fish_abbr_adh:adb\x20connect\x20192\x2e168\x2e43\x2e1
@@ -7,6 +8,7 @@ SETUVAR _fish_abbr_brc:nvim\x20\x7e/\x2econfig/bspwm/bspwmrc
 SETUVAR _fish_abbr_e:emacsclient
 SETUVAR _fish_abbr_nvrc:nvim\x20\x7e/\x2econfig/nvim/init\x2evim
 SETUVAR _fish_abbr_pacman:sudo\x20pacman
+SETUVAR _fish_abbr_phone:scrcpy\x20\x2d\x2dtcpip\x3d10\x2e0\x2e0\x2e18
 SETUVAR _fish_abbr_r:zathura
 SETUVAR _fish_abbr_rm:trash\x2dput
 SETUVAR _fish_abbr_sxrc:nvim\x20\x7e/\x2econfig/sxhkd/sxhkdrc

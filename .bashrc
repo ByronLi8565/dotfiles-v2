@@ -9,10 +9,10 @@ export PATH="$PATH:$HOME/.spicetify"
 [[ $- != *i* ]] && return
 PS1='[\u@\h \W]\$ '
 xset r rate 300 50
+. /usr/share/LS_COLORS/dircolors.sh
 exec fish
 
 
-
-
-
-
+# BEGIN_KITTY_SHELL_INTEGRATION
+if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
+# END_KITTY_SHELL_INTEGRATION

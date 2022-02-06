@@ -1,11 +1,13 @@
 configuration {
 	font:							"Iosevka Nerd Font 10";
+    modi:                           "window,run,ssh,drun,combi";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
     drun-display-format:            "{name}";
     disable-history:                false;
 	sidebar-mode: 					false;
+    terminal:                       "kitty";
 }
 
 @import "colors.rasi"
