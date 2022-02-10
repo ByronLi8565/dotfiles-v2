@@ -6,6 +6,7 @@ export GPG_TTY=$(tty)
 export GCM_CREDENTIAL_STORE=gpg
 export XDG_DESKTOP_DIR="$HOME/"
 export PATH="$PATH:$HOME/.spicetify"
+export TMUX_CONFIG="~/.config/tmux/.tmux.conf"
 [[ $- != *i* ]] && return
 PS1='[\u@\h \W]\$ '
 xset r rate 300 50
