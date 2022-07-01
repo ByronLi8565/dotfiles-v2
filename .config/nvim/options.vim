@@ -21,3 +21,4 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set wildmenu
+set wildmode=list:longest,list:full

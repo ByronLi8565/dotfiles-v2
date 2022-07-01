@@ -1,7 +1,6 @@
 if status is-interactive
 	starship init fish | source
 	zoxide init --no-aliases fish | source
-    rm -r ~/Downloads 2> /dev/null
 end
 export PATH="$PATH:$HOME/.spicetify"
 function vterm_printf;
@@ -15,3 +14,9 @@ function vterm_printf;
         printf "\e]%s\e\\" "$argv"
     end
 end
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval /Users/spheal/dev/miniforge/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+

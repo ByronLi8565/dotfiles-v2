@@ -1,4 +1,10 @@
 ;; -*- no-byte-compile: t; -*-
+(package! gitconfig-mode
+	  :recipe (:host github :repo "magit/git-modes"
+			 :files ("gitconfig-mode.el")))
+(package! gitignore-mode
+	  :recipe (:host github :repo "magit/git-modes"
+			 :files ("gitignore-mode.el")))
 ;;; $DOOMDIR/packages.el
 
 ;; To install a package with Doom you must declare them here and run 'doom sync'
@@ -13,6 +19,7 @@
 ;(package! some-package)
 
 ;; To install a package directly from a remote git repo, you must specify a
+
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:
 
 ;; https://github.com/raxod502/straight.el#the-recipe-format

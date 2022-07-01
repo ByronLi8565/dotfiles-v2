@@ -8,6 +8,8 @@ ctrl - 6 : source ~/bin/swspace 6
 ctrl - 7 : source ~/bin/swspace 7
 ctrl + shift - l : yabai -m window --space next; yabai -m space --focus next ;
 ctrl + shift - h : yabai -m window --space prev; yabai -m space --focus prev ; 
+ctrl - h : yabai -m space --focus next;
+ctrl - l : yabai -m space --focus prev; 
 ctrl - j : yabai -m window --focus next;
 ctrl - k : yabai -m window --focus prev; 
 ctrl - o : yabai -m config top_padding 4 ; spacebar -m config height 0

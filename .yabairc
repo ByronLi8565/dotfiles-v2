@@ -30,5 +30,7 @@ yabai -m config left_padding                 4
 yabai -m config right_padding                4 
 yabai -m config window_gap                   4 
 yabai -m rule --add app=System\ Preferences manage=off
+yabai -m rule --add app=Choose manage=off
+yabai -m rule --add app=mpv manage=off
 
 echo "yabai configuration loaded.."

@@ -7,7 +7,7 @@
 ;;   presentations or streaming.
 ;
 (setq doom-font (font-spec :family "FiraCode Nerd Font Mono" :size 18)
-       doom-variable-pitch-font (font-spec :family "Overpass Nerd Font" :size 18))
+       doom-variable-pitch-font (font-spec :family "FiraCode Nerd Font Mono" :size 18))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
