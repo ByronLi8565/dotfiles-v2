@@ -10,7 +10,7 @@ ctrl + shift - l : yabai -m window --space next; yabai -m space --focus next ;
 ctrl + shift - h : yabai -m window --space prev; yabai -m space --focus prev ; 
 ctrl - h : yabai -m space --focus next;
 ctrl - l : yabai -m space --focus prev; 
-ctrl - j : yabai -m window --focus next;
+ctrl - j : yabai -m window --focus next || yabai -m window --focus first
 ctrl - k : yabai -m window --focus prev; 
 ctrl - o : yabai -m config top_padding 4 ; spacebar -m config height 0
 shift + ctrl - o : yabai -m config top_padding 24 ; spacebar -m config height 20

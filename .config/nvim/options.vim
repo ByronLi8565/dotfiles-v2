@@ -3,6 +3,7 @@ set relativenumber
 set nu
 set hidden
 set tabstop=4
+set updatetime=300
 set shiftwidth=4
 set softtabstop=4
 set expandtab
@@ -22,3 +23,6 @@ set undodir=~/.vim/undodir
 set undofile
 set wildmenu
 set wildmode=list:longest,list:full
+set cmdheight=0
+set laststatus=0
+highlight EndOfBuffer ctermfg=bg
