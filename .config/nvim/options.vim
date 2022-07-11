@@ -25,4 +25,5 @@ set wildmenu
 set wildmode=list:longest,list:full
 set cmdheight=0
 set laststatus=0
+set clipboard=unnamedplus
 highlight EndOfBuffer ctermfg=bg

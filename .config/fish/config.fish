@@ -14,9 +14,4 @@ function vterm_printf;
         printf "\e]%s\e\\" "$argv"
     end
 end
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-eval /Users/spheal/dev/miniforge/bin/conda "shell.fish" "hook" $argv | source
-# <<< conda initialize <<<
-
+fish_vi_key_bindings

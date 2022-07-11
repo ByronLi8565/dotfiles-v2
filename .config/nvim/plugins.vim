@@ -27,6 +27,9 @@ Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
+Plug 'svermeulen/vim-cutlass'
+Plug 'svermeulen/vim-yoink'
+
 call plug#end()
 
 
@@ -80,12 +83,26 @@ set background=dark
 let g:everforest_background = 'hard'
 " For better performance
 let g:everforest_better_performance = 1
+let g:yoinkIncludeDeleteOperations=1
 colorscheme everforest
 nnoremap <leader>j :BufferLineCycleNext<CR>
 nnoremap <leader>k :BufferLineCyclePrev<CR>
 nnoremap <leader>t :NvimTreeToggle<CR>
 nnoremap <leader>, :noh<cr>
 nnoremap <leader>g :Goyo<CR>
+nmap <c-n> <plug>(YoinkPostPasteSwapBack)
+nmap <c-p> <plug>(YoinkPostPasteSwapForward)
+
+nmap p <plug>(YoinkPaste_p)
+nmap P <plug>(YoinkPaste_P)
+nmap gp <plug>(YoinkPaste_gp)
+nmap gP <plug>(YoinkPaste_gP)
+nnoremap x d
+xnoremap x d
+
+nnoremap xx dd
+nnoremap X D
+
 nnoremap j gj
 nnoremap k gk
 nnoremap X ZZ
